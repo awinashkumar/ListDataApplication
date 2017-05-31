@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListDataApplication</string>
+    <string name="news_author">Author</string>
+    <string name="news_title">Title</string>
+    <string name="news_description">Description</string>
+    <string name="news_Published_Date">Published Date</string>
+</resources>

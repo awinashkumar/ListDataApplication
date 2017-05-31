@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin">
+
+        <ImageView
+            android:id="@+id/image_details_page"
+            android:layout_width="@dimen/image_layout_width"
+            android:layout_height="@dimen/image_layout_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/top_margin" />
+
+        <TextView
+            android:id="@+id/author_details_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_size"
+            android:text="@string/news_author"
+            android:textSize="@dimen/author_text_size"
+            android:layout_below="@+id/image_details_page"/>
+
+        <TextView
+            android:id="@+id/title_details_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_size"
+            android:text="@string/news_title"
+            android:textSize="@dimen/title_text_size"
+            android:layout_below="@+id/author_details_page"/>
+
+        <TextView
+            android:id="@+id/description_details_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_size"
+            android:text="@string/news_description"
+            android:textSize="@dimen/description_text_size"
+            android:layout_below="@+id/title_details_page"/>
+
+        <TextView
+            android:id="@+id/published_date_details_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_size"
+            android:text="@string/news_Published_Date"
+            android:textSize="@dimen/title_text_size"
+            android:layout_below="@+id/description_details_page"/>
+    </RelativeLayout>
+
+</ScrollView>
